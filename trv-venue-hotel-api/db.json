@@ -1,0 +1,322 @@
+{
+  "hotels": [
+    {
+      "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
+      "name": "Hotel NH Leipzig Messe",
+      "description": "Only a short walk from the Leipzig Trade Fair and the Congress Centre Leipzig, the hotel serves as the gateway to the thrilling cultural highlights of the city, such as the Zoo Leipzig, the Gewandhaus Orchestra, Auerbach’s Cellar, and the Monument to the Battle of the Nations—one of Europe’s largest monuments. These and other attractions, as well as the Airport Leipzig, are easily reachable by public transportation. Guests who arrive by car can take advantage of 200 underground parking spaces.",
+      "distance_to_venue": 300,
+      "rating": 4.3,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "pets",
+        "restaurant",
+        "spa"
+      ],
+      "images": [
+        "/assets/14460476.webp",
+        "/assets/24313176.webp",
+        "/assets/41720962.webp",
+        "/assets/243759900.jpg",
+        "/assets/221046170.webp",
+        "/assets/331912020.webp"
+      ],
+      "rooms": [
+        {
+          "id": "bf4b1853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standart Double Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 1,
+          "price_in_usd": 79.9
+        },
+        {
+          "id": "bf3b2853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standart Single Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 89.9
+        },
+        {
+          "id": "bf2b3853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 3,
+          "price_in_usd": 119.9
+        },
+        {
+          "id": "bf1b4853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe Family suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 199.9
+        }
+      ]
+    },
+    {
+      "id": "62c1165f-3c08-45ec-88d3-5029af3269c8",
+      "name": "NH Leipzig Zentrum",
+      "description": "The newly built NH Leipzig Zentrum Hotel is situated in the heart of the city. Connected to Petersbogen mall and close to Petersstrasse shopping street, it’s also within walking distance of the landmark Neues Rathaus town hall and Leipzig University. Plenty of bars and restaurants can be found nearby, serving traditional and local cuisine. The hotel has 197 rooms spread across seven floors. All are newly decorated in a cozy and modern style. Standard rooms, superior rooms, suites, accessible rooms and family rooms are available. Each room has free Wi-Fi, a flat-screen TV and a choice of pillows to ensure a comfortable night’s sleep. A buffet breakfast is served in the hotel restaurant. Children’s breakfasts are also served, and there’s an early-bird option if you have to make a start first thing.",
+      "distance_to_venue": 940,
+      "rating": 3.8,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "restaurant",
+        "pets"
+      ],
+      "images": [
+        "/assets/479809202.webp",
+        "/assets/477669338.webp",
+        "/assets/479809192.webp"
+      ],
+      "rooms": [
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 78.9
+        },
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 78.9
+        },
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 78.9
+        },
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 78.9
+        }
+      ]
+    },
+    {
+      "id": "61c1165f-3c08-45ec-88d3-5029af3269c8",
+      "name": "Steigenberger Grandhotel Handelshof",
+      "description": "Holding a position of pride aside the historic Naschmarkt Square and Old Town Hall in the heart of Leipzig, 5-star elegant Steigenberger Grandhotel Handelshof offers luxury soundproofed suites and guestrooms, a state-of-the-art health and wellness spa, valet parking and free Wi-Fi.Suite and guestroom amenities include premium bedding, luxury linens, telephones with voicemail, a flat-screen television with satellite channels, coffee and tea making facilities, and spacious bathrooms with complimentary toiletries.Steigenberger Grandhotel Handelshof Spa World facilities encompass two floors of the grand hotel. Guests are treated like celebrities with world-class service. Massage and beauty treatments are available.",
+      "distance_to_venue": 740,
+      "rating": 4.4,
+      "price_category": "very_high",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "restaurant",
+        "pets"
+      ],
+      "images": [
+        "/assets/494774910.webp",
+        "/assets/494774918.webp",
+        "/assets/495079108.webp",
+        "/assets/495909766.webp"
+      ],
+      "rooms": [
+        {
+          "id": "af2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standard Twin Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 98.9
+        },
+        {
+          "id": "cf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Double Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 108.9
+        },
+        {
+          "id": "df2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Twin Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 139.9
+        },
+        {
+          "id": "ef2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Family Room with Double and Single Beds",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 199.9
+        },
+        {
+          "id": "ff2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Family Room with Two Double Beds",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 399.9
+        },
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "King Suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 599.9
+        }
+      ]
+    },
+    {
+      "id": "69a9665f-3c08-45ec-88d3-5029af3269c8",
+      "name": "Leipzig Marriott Hotel",
+      "description": "Located across from the main train station in the historic area of Leipzig, the Leipzig Marriott Hotel offers comfortable guest rooms, Executive level, renovated modern meeting rooms, onsite dining&free high-speed Internet access in the public area.",
+      "distance_to_venue": 400,
+      "rating": 4.8,
+      "price_category": "high",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "pets",
+        "restaurant",
+        "gym",
+        "pool",
+        "spa"
+      ],
+      "images": [
+        "/assets/502956260.webp",
+        "/assets/526941696.webp",
+        "/assets/537912102.webp",
+        "/assets/538006264.webp",
+        "/assets/550821978.webp"
+      ],
+      "rooms": [
+        {
+          "id": "af2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standard Twin Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 98.9
+        },
+        {
+          "id": "cf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Double Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 108.9
+        },
+        {
+          "id": "df2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Twin Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 139.9
+        },
+        {
+          "id": "ef2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Family Room with Double and Single Beds",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 199.9
+        },
+        {
+          "id": "ff2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Executive Family Room with Two Double Beds",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 399.9
+        },
+        {
+          "id": "bf2b9853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "King Suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 599.9
+        }
+      ]
+    },
+    {
+      "id": "61c9665f-3c08-43cc-88d3-5029af3269c8",
+      "name": "ibis budget Leipzig City",
+      "description": "Sleep well thanks to a dream price: Your ibis budget Leipzig City hotel with 168 modern rooms is in a uniquely convenient location, just 219 yards (200 meters) from the main train station with a direct connection to Leipzig/Halle Airport. You can look forward to an exceptionally comfy bed with cozy bedding and a fantastically low price. You can fill up at our buffet breakfast every morning, and low-cost parking is available in the adjacent indoor car park. Free WIFI is available throughout the hotel.",
+      "distance_to_venue": 1800,
+      "rating": 3.5,
+      "price_category": "low",
+      "amenities": [
+        "free_wifi",
+        "restaurant"
+      ],
+      "images": [
+        "/assets/24313176.webp",
+        "/assets/41720962.webp",
+        "/assets/24313176.webp",
+        "/assets/41720962.webp"
+      ],
+      "rooms": [
+        {
+          "id": "bf2b9853-7cbc-47bf-ba3d-3ba765061db7",
+          "name": "Standart Single Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 1,
+          "price_in_usd": 40.9
+        },
+        {
+          "id": "bf2b9853-7cac-47bf-ba3d-3ba765061db7",
+          "name": "Standart Double Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 60.9
+        }
+      ]
+    },
+    {
+      "id": "61c9665f-3c08-45ec-88d3-5029af3829c8",
+      "name": "Adina Apartment Hotel Leipzig",
+      "description": "Only a few minutes from Leipzig’s central station, in the former Brühlpelz tower, the Adina Apartment Hotel Leipzig is perfectly located to enjoy everything the city has to offer.Major attractions, including Auerbach’s Cellar, Oper Leipzig, the Leipzig Zoo, and a number of world-class museums are within easy walking distance of the hotel, which is located amidst many of the restaurants, bars and businesses that have led to Leipzig being nicknamed ‘the better Berlin’.The hotel offers elegant, spacious studio and one bedroom apartments ideal for those visiting the city on both short and long stays. The rooms are designed to be a home away from home, with fully-equipped kitchens, washing machines, spacious living and dining areas and all modern conveniences, including free WiFi, LCD TV and USB charger.Guests can also make use of a comprehensive array of hotel facilities and services, such as the on-site restaurant, 24 hour reception and room service.",
+      "distance_to_venue": 1500,
+      "rating": 4.1,
+      "price_category": "medium",
+      "amenities": [
+        "free_parking",
+        "free_wifi",
+        "restaurant",
+        "gym"
+      ],
+      "images": [
+        "/assets/24313176.webp",
+        "/assets/41720962.webp",
+        "/assets/24313176.webp",
+        "/assets/41720962.webp"
+      ],
+      "rooms": [
+        {
+          "id": "bf2b1853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standart Double Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 1,
+          "price_in_usd": 48.9
+        },
+        {
+          "id": "bf2b2853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Standart Single Room",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 2,
+          "price_in_usd": 68.9
+        },
+        {
+          "id": "bf2b3853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 3,
+          "price_in_usd": 148.9
+        },
+        {
+          "id": "bf2b4853-7cec-47bf-ba3d-3ba765061db7",
+          "name": "Deluxe Family suite",
+          "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+          "max_occupancy": 4,
+          "price_in_usd": 178.9
+        }
+      ]
+    }
+  ]
+}
