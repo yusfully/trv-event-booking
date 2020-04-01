@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchStreams,sort,filter } from '../../redux/actions';
+import { fetchHotels,sort,filter } from '../../redux/actions';
 import HotelListItem from './hotelListItem'
 import FilterMain from './filter/filterMain'
 import ButtonCustom from '../button/button'
@@ -19,7 +19,7 @@ class HotelList extends React.Component {
  
 
   componentDidMount() {
-    this.props.fetchStreams();
+    this.props.fetchHotels();
 
    
 
@@ -151,5 +151,5 @@ const mapStateToProps = state => {
 
 export default withRouter(connect(
   mapStateToProps,
-  {fetchStreams,filter },
+  {fetchHotels,filter },
 )(HotelList))

@@ -18,7 +18,12 @@ ul.amenities-list.amenities-indetails {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% auto;
 }
-
+a.nav {
+    margin: 0 10px;
+    padding: 10px;
+    color: #333;
+    border: 1px solid;
+}
 .thumbs li {
     height: 100px;
     overflow: hidden;
@@ -38,11 +43,12 @@ ul.amenities-list.amenities-indetails {
 
 
 
-.right.menu {
-    right: 20px;
-    top: 20px;
-    position: absolute;
-}
+    .right.menu {
+        right: 20px;
+        padding: 10px;
+        top: 20px;
+        position: absolute;
+    }
 .ui.secondary.pointing.menu {
     display: flex;
     padding: 10px;

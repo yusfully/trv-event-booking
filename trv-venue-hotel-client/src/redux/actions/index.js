@@ -1,5 +1,5 @@
 
-import streams from '../../apis/hotels';
+import hotels from '../../apis/hotels';
 import history from '../../history';
 import { uuid } from 'uuidv4';
 import {
@@ -15,7 +15,7 @@ import {
 
 
 
-export const createStream = formValues => async (dispatch) => {
+export const createHotel = formValues => async (dispatch) => {
   let id=uuid()
  
   formValues.rooms.map((room,index) => {
@@ -24,38 +24,38 @@ export const createStream = formValues => async (dispatch) => {
 
   })
 
-  const response = await streams.post('/hotels', {id, ...formValues });
+  const response = await hotels.post('/hotels', {id, ...formValues });
 
   dispatch({ type: CREATE_HOTEL, payload: response.data });
   history.push('/');
 };
 
-export const fetchStreams = () => async dispatch => {
-  const response = await streams.get('/hotels');
+export const fetchHotels = () => async dispatch => {
+  const response = await hotels.get('/hotels');
 
   dispatch({ type: FETCH_HOTELS, payload: response.data });
 };
 
-export const fetchStream = id => async dispatch => {
+export const fetchHotel = id => async dispatch => {
  
-  const response = await streams.get(`/hotels/${id}`);
+  const response = await hotels.get(`/hotels/${id}`);
 
   dispatch({ type: FETCH_HOTEL, payload: response.data });
 };
 
 
 
-export const deleteStream = id => async dispatch => {
+export const deleteHotel= id => async dispatch => {
   debugger
   console.log(id)
-  await streams.delete(`/hotels/${id}`);
+  await hotels.delete(`/hotels/${id}`);
 
   dispatch({ type: DELETE_HOTEL, payload: id });
   history.push('/');
 };
 
 export const confirmBooking = booking => async dispatch => {
-  const response = await streams.get(`/hotels/${booking.hotel}`);
+  const response = await hotels.get(`/hotels/${booking.hotel}`);
  let roomselected={}
  response.data.rooms.map(room => {
 if(room.id===booking.roomId){

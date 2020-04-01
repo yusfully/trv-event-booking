@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { createStream } from '../../redux/actions';
+import { createHotel } from '../../redux/actions';
 import Hotelform from './hotelForm';
 
 class HotelCreate extends React.Component {
@@ -17,7 +17,7 @@ formValues.hotel[0]["images"]=[
   "/assets/331912020.webp"
 ]
 console.log(formValues)
-    this.props.createStream(formValues.hotel[0]);
+    this.props.createHotel(formValues.hotel[0]);
   };
 
 
@@ -33,5 +33,5 @@ console.log(formValues)
 
 export default connect(
   null,
-  { createStream }
+  { createHotel }
 )(HotelCreate);

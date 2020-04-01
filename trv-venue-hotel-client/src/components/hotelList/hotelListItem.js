@@ -38,7 +38,7 @@ const HotelListItem=({hotel:{price_category,amenities,rating,distance_to_venue,r
   )
   }
 
-  const renderAdmin=(stream)=> {
+  const renderAdmin=(hotel)=> {
    
     return (
 
@@ -123,7 +123,7 @@ if(main){
       </div>
      <div className="list-detail-container">
      <div className="list-item-detail-left">
-        <Link to={`/streams/${id}`} className="list-item-title">
+        <Link to={`/hotels/${id}`} className="list-item-title">
           {name}
         </Link>
        

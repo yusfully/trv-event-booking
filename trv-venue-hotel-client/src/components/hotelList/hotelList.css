@@ -134,6 +134,7 @@ figure.img-tile {
 .container-inner {
     max-width: 1200px;
     padding: 0 40px;
+    margin: auto;
 }
 .inline li {
     padding: 20px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchStream } from '../../redux/actions';
+import { fetchHotel } from '../../redux/actions';
 
 import Amenities from '../amnenities/amenities';
 import Rooms from "../rooms/rooms"
@@ -16,7 +16,7 @@ class HotelDetail extends React.Component {
   componentDidMount() {
     const { id } = this.props.match.params;
 
-    this.props.fetchStream(id);
+    this.props.fetchHotel(id);
    
   }
    renderDistance=(distance)=> {
@@ -98,5 +98,5 @@ const mapStateToProps = (state, ownProps) => {
 
 export default connect(
   mapStateToProps,
-  { fetchStream }
+  { fetchHotel }
 )(HotelDetail);

@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import Modal from '../modal/Modal';
 import history from '../../history';
 import ButtonCustom  from '../button/button'
-import { fetchStream, deleteStream } from '../../redux/actions';
+import { fetchHotel, deleteHotel } from '../../redux/actions';
 
 class HotelDelete extends React.Component {
   componentDidMount() {
    
-    this.props.fetchStream(this.props.match.params.id);
+    this.props.fetchHotel(this.props.match.params.id);
 
   }
 
@@ -19,12 +19,12 @@ class HotelDelete extends React.Component {
     return (
       <React.Fragment>
       <ButtonCustom  
-       title="Delete" onClick={() => this.props.deleteStream(id)} 
+       title="Delete" onClick={() => this.props.deleteHotel(id)} 
        addClass="relative">
        Delete
        </ButtonCustom>
        <ButtonCustom  
-       title="Delete" onClick={() => this.props.deleteStream(id)} 
+       title="Delete" onClick={() => this.props.deleteHotel(id)} 
        inverted
        addClass="relative">
        Cancel
@@ -36,10 +36,10 @@ class HotelDelete extends React.Component {
 
   renderContent() {
     if (!this.props.hotel) {
-      return 'Are you sure you want to delete this stream?';
+      return 'Are you sure you want to delete this hotel?';
     }
 
-    return `Are you sure you want to delete the stream with hotel named: ${
+    return `Are you sure you want to delete the hotel with hotel named: ${
       this.props.hotel.name
     }`;
   }
@@ -63,5 +63,5 @@ const mapStateToProps = (state, ownProps) => {
 
 export default connect(
   mapStateToProps,
-  { fetchStream, deleteStream }
+  { fetchHotel, deleteHotel}
 )(HotelDelete);

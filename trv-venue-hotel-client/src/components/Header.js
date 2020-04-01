@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
  
 
 const Header = ({auth}) => {
-console.log(auth)
+
   return (
     <div className="ui secondary pointing menu">
       <Link to="/" className="nav">
