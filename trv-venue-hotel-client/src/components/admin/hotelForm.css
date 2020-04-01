@@ -1,0 +1,218 @@
+input {
+    background: none;
+    border: none;
+    height: 40px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.form-room-container {
+    padding: 20px;
+    border: 1px solid #dedede;
+    margin: 20px 0;
+}
+li.addroom-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.relative {
+    position: relative;
+}
+button.inverted.absolute.small.custom-button {
+    height: 30px;
+    padding: 0 20px;
+    line-height: 0;
+    min-width: unset;
+    top: 0;
+    right: 0;
+}
+span.border:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #63cad4;
+    bottom: 0;
+    position: absolute;
+    transition: all 0.3s ease-out;
+}
+.error.border:after {
+    background: #e86060;
+}
+textarea {
+    border: none;
+    resize: none;
+    height: 120px;
+}
+textarea {
+    border: none;
+    resize: none;
+}
+.focused span.border:after {
+    width: 100%;
+}
+label.formLabel {
+    font-size: 12px;
+    margin: 5px 0px;
+}
+input:active, input:focus, textarea:active, textarea:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  
+}
+
+
+.select svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+  
+  .select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    z-index: 9;
+    
+   
+  }
+  .select:focus {
+    outline: 0;
+
+  }
+  .select.selection {
+    box-shadow: 0 0 1px 1px #00a9e0;
+  }
+  .label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  .selection {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+  
+  .value {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  
+  .multiple {
+    padding-right: 30px;
+    margin-right: 5px;
+    background: #d9f2fb;
+    color: #00a9e0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  input.delete {
+    right: 20px;
+    top: 20px;
+}
+  .room-container {
+    padding: 20px;
+    border: 1px solid #dedede;
+    position: relative;
+    margin: 20px 0;
+}
+  .delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .placeholder {
+    padding: 5px 10px;
+    color: #4d4d4d;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    color: #ddd;
+  }
+  
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: solid #ddd;
+    border-width: 0 1px;
+    background: #fff;
+  }
+  
+  .option {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  
+   
+  }
+  .option.selected {
+      border: 1px solid #00a9e0;
+      margin: -1px -1px 0;
+      background:#d9f2fb;
+    }
+    
+    .option.focused {
+      background: #f5f5f5;
+    }
+  .checkbox {
+    content: '';
+    vertical-align: top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    margin: 2px 12px 0 0;
+    color: #fff;
+    font-size: 10px;
+    
+   
+  }
+  span.border {
+    position: absolute;
+    bottom: 20px;
+    height: 1px;
+    background: #333;
+    width: 100%;
+    left: 0;
+}
+ .selected  .checkbox  {
+      border-color:#d9f2fb;
+      background: #00a9e0;
+    }
+    .ui.error.message {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}

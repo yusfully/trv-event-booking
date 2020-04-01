@@ -1,0 +1,59 @@
+.details-main {
+    display: flex;
+}
+.detail-left {
+    width: 70%;
+    padding: 10px;
+}
+.details-right {
+    width: 30%;
+    padding: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+h2.sub-title {
+    margin: 0;
+    font-size: 18px;
+}
+.rooms-container li {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+.rooms-firstcol {
+    width: 100%;
+    align-self: center;
+    padding: 10px;
+}
+.rooms-secondcol {
+    width: 100px;
+    align-self: center;
+}.detail-book{
+    width: 250px;
+}
+.rooms-lastcol {
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+}
+.detail-header {
+    position: relative;
+    padding: 10px;
+}
+.detail-book {
+align-self: center;
+}
+p.detail-rating {
+position: absolute;
+right: 20px;
+padding: 20px;
+top: 20px;
+background: #333;
+color: #fff;
+}
+.rooms {
+
+padding: 10px;
+}

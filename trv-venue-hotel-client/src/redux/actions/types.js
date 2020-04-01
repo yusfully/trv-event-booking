@@ -1,0 +1,9 @@
+export const SIGN_IN = 'SIGN_IN';
+export const CREATE_HOTEL= 'CREATE_HOTEL';
+export const FETCH_HOTELS = 'FETCH_HOTELS';
+export const FETCH_HOTEL = 'FETCH_HOTEL';
+export const DELETE_HOTEL = 'DELETE_HOTEL';
+export const EDIT_HOTEL= 'EDIT_HOTEL';
+export const SORT_HOTELS="SORT_HOTELS";
+export const BOOK_ROOM="BOOK_ROOM";
+export const FILTER_HOTELS="SORT_HOTELS";
