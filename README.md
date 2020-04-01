@@ -1,5 +1,6 @@
 # trv-event-booking
 
-Installing all the dependencies of project, run following command:
+
+Make sure you install the dependencies for both api and client folder running following command:
 
 ``` $npm install ```
